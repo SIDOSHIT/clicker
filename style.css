@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    background-image: url('https://avatars.mds.yandex.net/i?id=c6cb85e4075b55009f520e0198b1d554-3410853-images-thumbs&n=13');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 200px;
+    border-style: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all 2s;
+    box-shadow: 5px 5px 20px black;
+}
